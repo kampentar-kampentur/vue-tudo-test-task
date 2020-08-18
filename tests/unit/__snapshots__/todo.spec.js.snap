@@ -1,0 +1,164 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Todo component should match snapshot 1`] = `
+<div
+  class="todo-page"
+>
+  <div
+    class="container"
+  >
+    <div
+      class="add-todo-wrapper"
+    >
+      <div
+        class="el-input"
+      >
+        <!---->
+        <input
+          autocomplete="off"
+          class="el-input__inner"
+          id="new-item-input"
+          placeholder="Please input"
+          type="text"
+        />
+        <!---->
+        <!---->
+        <!---->
+        <!---->
+      </div>
+       
+      <button
+        class="el-button el-button--primary is-disabled"
+        disabled="disabled"
+        id="add-new-button"
+        type="button"
+      >
+        <!---->
+        <!---->
+        <span>
+          Add
+        </span>
+      </button>
+    </div>
+     
+    <div
+      class="todo-items-wrapper"
+    >
+      <div
+        class="todo-item"
+      >
+        <label
+          class="el-checkbox todo-item-checkbox"
+        >
+          <span
+            class="el-checkbox__input"
+          >
+            <span
+              class="el-checkbox__inner"
+            />
+            <input
+              aria-hidden="false"
+              class="el-checkbox__original"
+              type="checkbox"
+              value=""
+            />
+          </span>
+          <span
+            class="el-checkbox__label"
+          >
+            <span
+              class="todo-item-label"
+            >
+              delectus aut autem
+            </span>
+            <!---->
+          </span>
+        </label>
+         
+        <div
+          class="todo-item-buttons-wrapper"
+        >
+          <button
+            class="el-button todo-item-edit-btn el-button--primary"
+            type="button"
+          >
+            <!---->
+            <i
+              class="el-icon-edit"
+            />
+            <!---->
+          </button>
+           
+          <button
+            class="el-button todo-item-remove-btn el-button--warning"
+            type="button"
+          >
+            <!---->
+            <i
+              class="el-icon-delete"
+            />
+            <!---->
+          </button>
+        </div>
+      </div>
+      <div
+        class="todo-item"
+      >
+        <label
+          class="el-checkbox todo-item-checkbox"
+        >
+          <span
+            class="el-checkbox__input"
+          >
+            <span
+              class="el-checkbox__inner"
+            />
+            <input
+              aria-hidden="false"
+              class="el-checkbox__original"
+              type="checkbox"
+              value=""
+            />
+          </span>
+          <span
+            class="el-checkbox__label"
+          >
+            <span
+              class="todo-item-label"
+            >
+              quis ut nam facilis et officia qui
+            </span>
+            <!---->
+          </span>
+        </label>
+         
+        <div
+          class="todo-item-buttons-wrapper"
+        >
+          <button
+            class="el-button todo-item-edit-btn el-button--primary"
+            type="button"
+          >
+            <!---->
+            <i
+              class="el-icon-edit"
+            />
+            <!---->
+          </button>
+           
+          <button
+            class="el-button todo-item-remove-btn el-button--warning"
+            type="button"
+          >
+            <!---->
+            <i
+              class="el-icon-delete"
+            />
+            <!---->
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
